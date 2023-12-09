@@ -1,0 +1,95 @@
+/* SONPSYS */
+#sinopsys{
+    display: flex;
+    flex-direction: row;   
+    width: 100%;
+    height: auto;
+background: #000;    
+}
+.itemsinopsys1{
+    margin: 3px;
+    width: 80%;
+
+
+}
+.itemsinopsys2{
+    margin: 3px;
+    width: 20%;
+
+}
+.itemsinopsys2 h1 {
+    font-size: 24px;
+    color: yellow;
+    text-align: center;
+}
+
+.elementSinopsys1{
+    display:flex;
+    flex-direction: row;
+    margin: 3px; 
+    height: auto;  
+
+
+}
+.elementSinopsys2{
+    margin: 3px;   
+    height:auto;  
+     text-align: center;
+}
+.Sinopsyspelicula1{
+    margin: 3px; 
+    width: 30%;
+    height: auto;  
+    text-align: center;
+}
+.Sinopsyspelicula1 img{
+    width: 200px;
+    height: 380px;
+}
+.Sinopsyspelicula2{    
+    margin: 3px; 
+    width: 70%;
+    font-family: 'Tilt Prism', cursive;
+    border-radius: 5px;
+    border: solid rgb(79, 77, 77) 2px;
+    -webkit-box-shadow: -10px 10px 28px -7px rgba(171, 21, 21, 0.75);
+    -moz-box-shadow: -10px 10px 28px -7px rgba(76, 10, 79, 0.75);
+    box-shadow: -10px 10px 28px -7px rgba(89, 0, 0, 0.75);
+}
+.titulosbotones1{
+    margin: 3px; 
+    height: 200px;
+   
+}
+.titulosbotones1 h1{
+    text-align:center;
+}
+.titulosbotones1 h2{
+    text-align:right;
+    padding-right: 10px ;
+   /*
+    background-color: aqua;
+    color: red;
+    padding: 50px 20px 10px 20px;
+    padding-top: 50px ;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    padding-bottom: 50px ;
+    border-radius: 10px 50px 100px 10px;
+    */
+}
+.titulosbotones1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding-left: 10px;
+}
+.titulosbotones2{
+    margin: 3px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+

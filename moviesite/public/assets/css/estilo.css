@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+a{
+    text-decoration: none;
+}
+body {
+    background: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+#mapasitio{
+    display: flex;
+ 
+}
+#mapasitio h1{
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.canasta{
+    
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    height: 300px;
+}
+
+.canasta h1{text-align: center;}
+#legales ul li .lnksitio{
+    font-family: Arial, Helvetica, sans-serif;
+    color:chocolate;
+    
+}
+#mapassitio ul li .lnksitio{
+    font-family: Arial, Helvetica, sans-serif;
+    color:chocolate;
+    
+}
+#cartelera ul li .lnksitio{
+    font-family: Arial, Helvetica, sans-serif;
+    color:chocolate;
+}
+#contacto ul li .lnksitio{
+    font-family: Arial, Helvetica, sans-serif;
+    color:chocolate;
+}
+#redessociales{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.redsocial{
+    width:20px;
+    height:20px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.facebookColor{           
+    text-align: center;
+    background:  #3b5998;
+    color:#fff;
+}
+.whatsappColor{
+    text-align: center;
+    background: #0f6927;
+    color:#fff
+}
+.youtubeColor{           
+    text-align: center;
+    background: #c4302b;
+    color:#fff;
+}
+.twitterColor{           
+    text-align: center;
+    background:#00acee;
+    color:#fff;
+}
+.tiktokColor{           
+    text-align: center;
+    background:#000;
+    color:#fff;
+    border: 1px solid #fff;
+}
+
+/* PELICULAS */
+#peliculas{
+    
+width:100%;
+height: auto;
+background: #fff;
+color: blue;
+}
+#itemsPeliculas{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.itemPelicula {    
+    margin: 10px;
+    width: 153px;
+    border: 1px solid silver;
+    height: 287px;
+    border-radius: 5px;
+    padding: 2px;
+   
+  }
+.imagenpelicula{
+    width: 146px;   
+    height: 200px;
+  
+
+}
+.imagenpelicula img{
+    width: 150px; 
+    height:auto;
+}
+.textopelicula{
+   padding: 0px;   
+    width: 150px;
+    height:60px;
+background: navy;}
+.textopelicula h5{
+    padding-top: .5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    color:#fff;
+    text-align: center;
+}
+.textopelicula h6{
+    padding-top: .5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 0px;
+    color:#fff;
+}
+.favorito{
+    position:relative;
+    top:-220px;
+    text-align: right;
+    color:#fff;
+  }
+.favorito a{
+    color: #fff;
+}  
+.iconofavorito{
+    color: #c4302b;
+}
+
+#banner{
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+#banner h1{
+    position:relative;
+    top :125px;
+    z-index: 999;
+    color: red;
+    opacity: .5;
+   
+}
+/*
+#banner marquee{
+    position:relative;
+    top :125px;
+    z-index: 999;
+    color: red;
+}
+*/
+#banner video{    
+    position:relative;
+    top: 0%;
+    left: 0%;
+    height: inherit;
+   
+}
+/* contenido */
+#contenido{
+    background: #000;
+    color: #fff;
+    margin: 0px;
+    width: 100%;
+    padding:10px;
+}
+/* Estrenos */
+#estrenos{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+.cardPelicula{
+    background: #fff;
+    color: #7a0707;
+    width:20vw;
+    height:45vh;
+    border-radius: 5px;
+    border:solid 1px #7a0707;}
