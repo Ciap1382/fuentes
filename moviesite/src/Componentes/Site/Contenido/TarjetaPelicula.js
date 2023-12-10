@@ -3,11 +3,16 @@ const TarjetaPelicula = (props) => {
   props.pelicula.genre_ids.forEach(genero => {
     generos += genero + '';
   });
+  console.log(props);
     return (
     <>
       <div id="props.pelicula.id" className={"cardpeli" + generos}>
         <img src={"https://image.tmdb.org/t/p/w500" + props.pelicula.poster_path} alt="titulo"/>;
         <h1>{props.pelicula.title}</h1>
+        <div className="cardpelidescrip">
+          <p>Fecha: {props.pelicula.release_date}</p>
+          <p>Descripción: {props.pelicula.overview.substring(0, 40)}<a href="#">{" "}...Ver mas<></></a></p>
+        </div>
       </div>
     </>
   );
