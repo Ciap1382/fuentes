@@ -19,7 +19,7 @@ return(
   {generos.map(genero=>(
     <option value={genero.id}>{genero.name.toUpperCase()}</option>
   ))}
-</select>       
+</select>
  </>
 )
 }
