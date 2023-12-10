@@ -8,7 +8,8 @@ const SelGeneros =() => {
         "Content-Type":"application/json"
       }}).then((result)=>result.json()).then((data)=>{
       data.genres.map(item=>{
-        fetch("http://localhost/api/?id=gen&acc=agregargen&nombregenero="+item.name+"&tmdbId="+item.id)
+        fetch("http://localhost/session25/api/?id=gen&acc=listargen&usuario=Carlos&password=Admin")
+        //fetch("http://localhost/api/?id=gen&acc=agregargen&nombregenero="+item.name+"&tmdbId="+item.id)
       })
         setGeneros(data.genres);
       })
