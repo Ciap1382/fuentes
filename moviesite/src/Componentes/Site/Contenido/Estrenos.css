@@ -1,4 +1,9 @@
 
 /* Estrenos */
 .cardPelicula{
-    border:solid 1px #7a0707;}
+    border:solid 1px blue;
+}
+.cardPelicula img{
+    height: 200px;
+    width: 200px;
+}

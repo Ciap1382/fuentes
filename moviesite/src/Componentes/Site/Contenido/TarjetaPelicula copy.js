@@ -1,19 +1,17 @@
-import Button from 'react-bootstrap/Button';
-function clicCompra(event) {
-  alert("Enviar a carrito");
-}
 const TarjetaPelicula = (props) => {
-  const pelicula = props.pelicula;
+  var generos ="";
+  props.pelicula.genre_ids.forEach(genero => {
+    generos += genero + '';
+  });
+  console.log(props);
     return (
     <>
-      <div id={pelicula.id} className='cardPelicula'>
-        <img src={"https://image.tmdb.org/t/p/w500" + pelicula.poster_path} alt="titulo"/>;
+      <div id="props.pelicula.id" className={"cardpeli" + generos}>
+        <img src={"https://image.tmdb.org/t/p/w500" + props.pelicula.poster_path} alt="titulo"/>;
+        <h1>{props.pelicula.title}</h1>
         <div className="cardpelidescrip">
-        <p>Titulo:{pelicula.title}</p>
-        <p>Fecha:{pelicula.release_date}</p>
-        <p>Descripcion:{pelicula.overview.substring(0, 25)}</p>
-        <Button onClick={clicCompra} className="btn btn-success">Enviar a carrito</Button>
-        <Button variant="primary">Info</Button>
+          <p>Fecha: {props.pelicula.release_date}</p>
+          <p>Descripción: {props.pelicula.overview.substring(0, 40)}</p>
         </div>
       </div>
     </>

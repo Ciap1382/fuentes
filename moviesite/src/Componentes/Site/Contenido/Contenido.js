@@ -1,11 +1,13 @@
-import Banner1 from "./Benner1";
 import Cartelera from "./Cartelera";
+import Ofertas from "./Ofertas";
 const Contenido =() => {
-  const banners = [{ id: 1, nombre: "banner1", cls: "bannerimg1" }];
   return (
     <>
       <div id="contenido">
           <Cartelera />
+      </div>
+      <div id="ofertas">
+          <Ofertas />
         {
           /*
                 banners.map(item=>{
@@ -13,6 +15,7 @@ const Contenido =() => {
                 })
                 */
         }
-      </div></>);
+      </div>
+    </>);
 };
 export default Contenido;
