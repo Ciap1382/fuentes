@@ -1,0 +1,13 @@
+.App{
+  justify-content: center;
+}
+#Card{
+  width: 320px;
+  height: 550px;
+  border: solid 1px silver;
+  border-radius: 5px;
+}
+.imgproducto img {
+  width: 200px;
+  height: 300px;
+}
